@@ -1,0 +1,419 @@
+/* ここから下に記載していく */
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+/* .header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fafafa;
+} */
+
+.header img{
+    margin: 20px;
+    float: left;   
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li {
+    font-size: 24px;
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.menu li :hover{
+    opacity: 0.6;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main_visual {
+    /* margin-top: 124px; */
+    position: relative;
+}
+
+.main_visual img {
+    width: 100%;
+}
+
+.main_text {
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.main_text h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main_text h2 {
+    font-size: 32px;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.about {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.about h3{
+    color: #ffd61a;
+}
+
+.about h4 {
+    margin-bottom: 60px;
+}
+
+.about_img ur {
+    list-style: none;
+    display: flex;
+}
+
+
+.about_img img {
+    width: 100%;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.about_01 {
+    margin-bottom: 40px;
+}
+
+.about_03 {
+    margin: 40px;
+}
+
+.course {
+    text-align: center;
+    margin: 60px;
+    line-height: 1.5em;
+}
+
+.course_detail {
+    display: flex;
+}
+
+.course_detail:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+.course_img {
+    width: 50%;
+}
+
+.course_img img {
+    width: 100%;
+}
+
+.course_text {
+    width: 50%;
+    background-color: #fafafa;
+}
+
+.course_text_detail {
+    width: 480px;
+    margin-left: 50px;
+}
+
+.coursetxtrv {
+    margin-left: 20px;
+}
+
+
+.course_text_detail P {
+    line-height: 1.5em;
+}
+
+.course_title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+
+
+.news {
+    margin: 60px;
+}
+
+.news_text h3 {
+    color: #ffd61a;
+}
+
+.news_text {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.news p {
+    line-height: 2em;
+}
+
+.date {
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.news ur {
+    display: flex;
+    justify-content: center;
+}
+
+.news_list :hover{
+    opacity: 0.6;
+}
+
+.news_list li {
+    list-style: none;
+}
+
+.news_more {
+    margin-top: 60px;
+}
+
+
+.access {
+    text-align: center;
+    background-color: #fafafa;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.company {
+    margin-bottom: 60px;
+}
+
+.access_tb {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.access_tb th,
+.access_tb td{
+    text-align: left;
+    padding: 25px;
+}
+
+.company {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+
+}
+
+.contact p {
+    line-height: 1.5em;
+}
+.contact h4 {
+    margin-bottom: 30px;
+}
+
+.contact_01 {
+    margin-bottom: 30px;
+}
+
+
+.contact_form {
+    box-sizing: border-box;
+    width: 840px;
+    margin: 0 auto;
+    padding-bottom: 140px;
+}
+
+.contact_table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact_item,
+.contact_body {
+    vertical-align: top;
+    padding: 8px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact_item {
+    text-align: left;
+    width: 28.5%;
+}
+
+.contact_body {
+    width: 71.5%;
+}
+
+.form_text {
+    width: 310px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+}
+
+.form_select {
+    width: 328px;
+    height: 36px;
+    padding: 8px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+
+.motivation {
+    display: block;
+}
+
+.motivation + .motivation {
+    margin-top: 24px;
+}
+
+.motivation_txt {
+    margin-left: 5px;
+}
+
+.form_textarea {
+    width: 328px;
+    /* padding: 10px; */
+    height: 108px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.contact_submit {
+    width: 258px;
+    text-align: center;
+    background-color: #ffd61a;
+    color: #fafafa;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 21px;
+    border-radius: 10px;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.btn a:hover {
+    opacity: 0.6;
+}
+
+/* section{
+    display: flex;
+    margin:2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn a {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #333;
+    color: #333;
+    padding: .7rem 1.5rem;
+    transition: .2s;
+  }
+  
+  .btn.btn__18 a {
+    overflow: hidden;
+    position: relative;
+    transition: .3s;
+  }
+  
+  .btn.btn__18 a:before, .btn.btn__18 a:after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: #ffd61a;
+    border-radius: 50%;
+    z-index: -1;
+    transition: .3s;
+    display: block;
+  }
+  
+  .btn.btn__18 a:before {
+    top: 0;
+    left: 0;
+    transform: scale(0) translate(-50%, -50%);
+    transform-origin: top left;
+  }
+  
+  .btn.btn__18 a:after {
+    right: 0;
+    bottom: 0;
+    transform: scale(0) translate(50%, 50%);
+    transform-origin: bottom right;
+  }
+  
+  .btn.btn__18 a:hover {
+    color: orange;
+  }
+  
+  .btn.btn__18 a:hover:after, .btn.btn__18 a:hover:before {
+    transition: .6s;
+  }
+  
+  .btn.btn__18 a:hover:after {
+    transform: scale(10) translate(50%, 50%);
+  }
+  
+  .btn.btn__18 a:hover:before {
+    transform: scale(10) translate(-50%, -50%);
+  } */
+
+.footer {
+    padding: 30px;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+}
